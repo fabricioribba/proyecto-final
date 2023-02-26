@@ -1,0 +1,147 @@
+
+
+
+  *{
+    font-family:"Oswald";
+    margin: 0;
+    padding: 0;
+  }
+  html{ 
+    scroll-behavior: smooth;
+  } 
+  /*inicio*/
+  .inicio{
+    background:linear-gradient(rgba(0,0,0.3),rgba(0,0,0.3));
+    background-image:url("imagenes/pasto.jpg");
+    background-size:cover;
+    background-position: center center;
+    color:#fff;
+  }
+  .inicio  .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .inicio .contenido-seccion header{
+    padding:  30px;
+  }
+  /*menu */
+  .inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: black; 
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99;
+    display: none;
+  } 
+  .inicio .contenido-seccion header nav a{
+    display: block;
+    color: snow;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  /*logo*/
+  .inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family:"Yellowtai";
+    text-shadow: 0 0 40px #fff;
+  }
+  .inicio .contenido-seccion .logo .color{
+    color:chartreuse;
+    font-family: "Yellowtai";
+  }
+  .inicio .contenido-seccion header .nav-bar{
+    position:relative;
+    background-color:black;
+    font-size: 20px;
+    width: 50px;
+    border-radius:50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s;
+  }
+  .inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #fff;
+  }
+  .inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+  }
+  .inicio .contenido-seccion .info h1{
+    color: black;
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+.inicio .contenido-seccion .info h2{
+  color:ivory ;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+}
+.inicio .contenido-seccion .foto{
+  position: relative;
+}
+.inicio .contenido-seccion .foto img{
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.897);
+  position: center;
+  left: 50%;
+  top: -100px;
+}
+/*estilo general*/
+.titulo-seleccion{
+  font-family:"Yellowtai";
+  font-size: 1.5rem;
+}
+/*informacion personal*/
+.informacionpersonal{
+  background-color: rgb(241, 238, 238);
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+/*experiencia*/
+.experiencia{
+background-color:rgb(222, 222, 222);
+padding: 140px 0 100px 0;
+text-align: center;
+}
+
+/*habilidades*/
+.habilidades{
+background-color: rgb(205, 204, 204);
+padding: 140px 0 100px 0;
+text-align: center;
+}
+
+/*contacto*/
+.contacto{
+background-color:rgb(38, 38, 38);
+color: rgba(220, 219, 219, 0.963);
+padding: 140px 0 100px 0;
+text-align: center;
+}
+.contacto .contenido-seccion{
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+  text-transform:uppercase;
+  font-size:30px
+}
+.contacto .contenido-seccion .fila{
+  display:flex;
+  justify-content:space-around;
+}
+.contacto .contenido-seccion .fila .col{
+  margin-top:50px;
+}
+.contacto .contenido-seccion .fila .col{
+color:rgb(242, 242, 246);
+}
